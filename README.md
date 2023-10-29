@@ -1,4 +1,4 @@
-🤖** **Personal AI Assistant: Your Web and PDF Guide****
+🤖**Personal AI Assistant: Your Web and PDF Guide**
 
 ![ezgif com-gif-maker (1)](https://github.com/Abhi0323/Generative-AI-based-Personal-Assistant/assets/112967999/8718ba7f-e075-4a42-bbef-9a6e94ff50a3)
 
