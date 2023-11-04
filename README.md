@@ -50,3 +50,5 @@ User Experience: Designed to be intuitive, catering to both tech-savvy and novic
 Research: Glean quick insights from academic papers to market research.
 Reading: Short on time? Summarize long articles or reports.
 Lifelong Learning: Stay curious, ask away, and get well-informed answers.
+
+Pleasef refer to this article if you want understand the workflow of this application even better: https://medium.com/@abhishekgoud1212/introducing-the-ultimate-personal-ai-assistant-your-web-and-pdf-researcher-36bf9ee0cc96
