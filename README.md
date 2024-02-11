@@ -22,6 +22,7 @@ Ask and get answers, all derived from the PDF's content.
 **Data Acquisition:**
 
 **URLs**: Using LangChain's UnstructuredURLLoader, it efficiently processes and gathers data from web links.
+
 **PDFs**: Leveraging PdfReader, the tool parses every page of the uploaded PDF, capturing all textual nuances.
 
 **Text Segmentation:**
