@@ -1,6 +1,7 @@
 🤖 **Personal AI Assistant: Your Web and PDF Guide**
 
 ![ezgif com-gif-maker (1)](https://github.com/Abhi0323/Generative-AI-based-Personal-Assistant/assets/112967999/8718ba7f-e075-4a42-bbef-9a6e94ff50a3)
+Pleasef refer to this article if you want understand the workflow of this application even better: https://medium.com/@abhishekgoud1212/introducing-the-ultimate-personal-ai-assistant-your-web-and-pdf-researcher-36bf9ee0cc96
 
 Harness the power of AI to quickly get answers from multiple online sources and PDFs. Say goodbye to the era of skimming through countless web pages and dense documents!
 
@@ -28,14 +29,18 @@ Ask and get answers, all derived from the PDF's content.
 **Text Segmentation:**
 
 Content is strategically segmented into manageable chunks, ensuring optimality in both computation and response accuracy.
-Text Embedding & Vector Storage:
+
+**Text Embedding & Vector Storage:**
+
 Chunks undergo embedding, converting text to mathematical vectors while retaining semantic integrity. This is facilitated via OpenAIEmbeddings.
 Vectors find their place in a FAISS vector database, enabling rapid similarity-based searching.
 
 **Intelligent Query Handling:**
 
 Upon a query, the tool sifts through the database, zeroing in on the most semantically relevant text chunks.
-Human-like Response Generation:
+
+**Human-like Response Generation**:
+
 The OpenAI Large Language Model (LLM) crafts precise, coherent answers from the selected chunks.
 
 **PDF Summarization:**
@@ -43,13 +48,13 @@ The OpenAI Large Language Model (LLM) crafts precise, coherent answers from the 
 A standout feature! The tool can synthesize an entire PDF into a crisp summary, presenting the document's crux.
 
 **🌟 Benefits:**
+
 Efficiency: Get direct answers and summaries in a jiffy.
 Accuracy: Pooling data from diverse sources ensures comprehensive and accurate responses.
 User Experience: Designed to be intuitive, catering to both tech-savvy and novice users.
 
 **🌐 Applications:**
+
 Research: Glean quick insights from academic papers to market research.
 Reading: Short on time? Summarize long articles or reports.
 Lifelong Learning: Stay curious, ask away, and get well-informed answers.
-
-Pleasef refer to this article if you want understand the workflow of this application even better: https://medium.com/@abhishekgoud1212/introducing-the-ultimate-personal-ai-assistant-your-web-and-pdf-researcher-36bf9ee0cc96
