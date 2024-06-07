@@ -1,6 +1,10 @@
 import getpass
 import os
 import configparser
+from langchain_community.document_loaders import TextLoader
+from langchain_community.vectorstores import FAISS
+from langchain_openai import OpenAIEmbeddings
+from langchain_text_splitters import CharacterTextSplitter
 
 # Get open AI key
 config_path = r"C:\Users\felixstuyck\OneDrive - Finvision\Documenten\Python\AI assistant config.ini"
@@ -8,11 +12,6 @@ config = configparser.ConfigParser()
 config.read(config_path)
 OPEN_AI_KEY = config['API_KEY_Assistent']['API_KEY']
 os.environ["OPENAI_API_KEY"] = getpass.getpass(OPEN_AI_KEY)
-
-from langchain_community.document_loaders import TextLoader
-from langchain_community.vectorstores import FAISS
-from langchain_openai import OpenAIEmbeddings
-from langchain_text_splitters import CharacterTextSplitter
 
 # Load and process the document
 loader = TextLoader(R"C:\Users\felixstuyck\OneDrive - Finvision\Documenten\Stow stored procedure.txt")
