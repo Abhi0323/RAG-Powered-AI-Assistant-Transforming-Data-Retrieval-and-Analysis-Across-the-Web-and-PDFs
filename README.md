@@ -1,4 +1,9 @@
 # Personal AI Assistant: Your Web and PDF Guide
+## How to run on local desktop
+* Install correct packages
+* Run in CMD
+* Navigate to location of the notebook: ex. cd C:\Users\felixstuyck\Documents
+* streamlit run "Ai assistent script.py"
 
 ![ezgif com-gif-maker (1)](https://github.com/Abhi0323/Generative-AI-based-Personal-Assistant/assets/112967999/8718ba7f-e075-4a42-bbef-9a6e94ff50a3)
 
